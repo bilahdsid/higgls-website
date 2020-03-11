@@ -208,12 +208,16 @@ header {
 }
 
 .bg-gradient {
-    background-image: url('../images/background_image.jpg');
+    background-image: url('../images/wallpaper.jpg');
+    background-size: cover;
+}
+.bg-gradient2 {
+    background-image: url('../images/wallpaper2.jpg');
     background-size: cover;
 }
 
 .tagline {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
     margin: 0 auto;
@@ -259,6 +263,7 @@ header {
     border-radius: 3px;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
+    height: 100%;
 }
 
 @media (max-width:991px) {
@@ -351,7 +356,7 @@ header {
 
 @media (min-width:992px) {
     .perspective-phone {
-        margin-top: -300px;
+        margin-top: -75%;
     }
 }
 
@@ -603,4 +608,19 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+.header2{
+    padding: 1px 0 0;
+    text-align: center;
+    color:#FFF;
+}
+.form-signin{
+    margin: auto;
+    width: 30%;
+}
+.margin_bottom{
+    margin-bottom: 10%;
+}
+label{
+    float: left;
 }
