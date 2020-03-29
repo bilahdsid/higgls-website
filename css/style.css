@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    color: #89d1f0;
+    color: #333;
     font-size: 33px;
     font-weight: 500;
 }
@@ -37,13 +37,13 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #89d1f0;
+    color: #333;
 }
 
 h5 {
     font-size: 28px;
     font-weight: 300;
-    color: #89d1f0;
+    color: #333;
     margin-bottom: 0.7rem;
 }
 
@@ -208,7 +208,7 @@ header {
 }
 
 .bg-gradient {
-    background-image: url('../images/wallpaper.jpg');
+    background-image: url('../images/background_image.jpg');
     background-size: cover;
 }
 .bg-gradient2 {
@@ -623,4 +623,11 @@ header {
 }
 label{
     float: left;
+}
+.mission-heading{
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+.mission-text{
+    text-align: justify;
 }
