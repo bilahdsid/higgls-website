@@ -29,7 +29,7 @@ h2 {
 }
 
 h3 {
-    color: #333;
+    color: #89d1f0;
     font-size: 33px;
     font-weight: 500;
 }
@@ -121,6 +121,12 @@ p.lead {
     background-color: #faf6fb;
 }
 
+.work-bg-img{
+    background-image: url('../images/wallpaper5.jpg');
+    background-size: contain;
+    background-repeat: round;
+}
+
 .section {
     padding: 80px 0;
 }
@@ -128,6 +134,20 @@ p.lead {
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.bg-image {
+    background-image: url('../images/wallpaper3.jpg');
+    background-size: cover;
+    padding: 30px;
+    margin-top: 5%;
+}
+
+.bg-image2 {
+    background-image: url('../images/wallpaper4.jpg');
+    background-size: cover;
+    padding: 30px;
+    margin-top: 5%;
 }
 
 .section-title small {
@@ -148,8 +168,15 @@ p.lead {
 ----------------------*/
 
 .nav-menu {
-    padding: 1rem 0;
+    padding: 0rem 0;
     transition: all 0.3s ease;
+    background-color: #6d6027;
+    background: -moz-linear-gradient(135deg, #d3cbb8 0%, #6d6027 100%);
+    background: -webkit-linear-gradient(135deg, #d3cbb8 0%, #6d6027 100%);
+    background: linear-gradient(135deg, #d3cbb8 0%, #6d6027 100%);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
 }
 
 .nav-menu.is-scrolling,
@@ -202,13 +229,13 @@ p.lead {
 ----------------------*/
 
 header {
-    padding: 100px 0 0;
+    padding: 160px 0 0;
     text-align: center;
     color: #FFF;
 }
 
 .bg-gradient {
-    background-image: url('../images/background_image.jpg');
+    background-image: url('../images/wallpaper.jpg');
     background-size: cover;
 }
 .bg-gradient2 {
@@ -627,7 +654,24 @@ label{
 .mission-heading{
     margin-top: 2%;
     text-transform: uppercase;
+    color: #89d1f0;
 }
 .mission-text{
     text-align: justify;
+    color: #fff;
+}
+.media-body-1 h5{
+    color: #89d1f0;
+    font-weight: 400;
+}
+.media-body-1 p{
+    color: #fff;
+}
+.cust-bg-img{
+    background-image: url('../images/wallpaper6.jpg');
+    background-size: contain;
+    background-repeat: round;
+}
+.cust-text{
+    color: #fff;
 }
